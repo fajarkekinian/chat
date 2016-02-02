@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profil"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gambar diterima" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Video diterima" />
+    </group>
+
+    <item android:title="Lain-lain">
+        <menu>
+            <item
+                android:id="@+id/nav_pengaturan"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Pengaturan" />
+            <item
+                android:id="@+id/nav_umpan"
+                android:icon="@android:drawable/stat_notify_sync_noanim"
+                android:title="Umpan Balik" />
+        </menu>
+    </item>
+
+</menu>
